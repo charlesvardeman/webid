@@ -16,7 +16,7 @@
     schema:member <https://w3id.org/people/cvardeman#me>;
     foaf:homePage <https://www.crc.nd.edu/>;
     foaf:member <https://w3id.org/people/cvardeman#me>;
-    foaf:title "Center for Research Computing" .
+    foaf:title "Center for Research Computing"@en  .
 
 <https://w3id.org/people/cvardeman#me> a dc:Agent,
         schema:Person,
@@ -26,11 +26,18 @@
     schema:alumniOf <https://dbpedia.org/resource/University_of_Notre_Dame>;
     schema:image <https://graph.facebook.com/706326341/picture?type=large>;
     schema:mail <mailto:cvardema@nd.edu>;
-    schema:name "Charles F Vardeman II";
+    schema:name "Charles F Vardeman II"^^xsd:string; 
     schema:worksFor <www.nd.edu/#this>;
+    foaf:holdsAccount <https://twitter.com/charlesvardeman> ;
+    foaf:family_name "Vardeman"^^xsd:string ;
+    foaf:givenname "Charles"^^xsd:string ;
+    foaf:nick "cvardeman"^^xsd:string ;
+    foaf:schoolHomepage <http://www.nd.edu/> ;
+    foaf:title "PhD"^^xsd:string ;
+    foaf:workplaceHomepage <http://crc.nd.edu/> .
     foaf:img <https://graph.facebook.com/706326341/picture?type=large>;
-    foaf:mbox <mailto:cvardema@nd.edu>;
-    foaf:name "Charles Vardeman";
+    foaf:mbox <mailto:cvardema@nd.edu>, <mailto:charles.vardeman@gmail.com>;
+    foaf:name "Charles Vardeman"^^xsd:string; 
     foaf:topic_interest <https://dbpedia.org/resource/E-Science>,
         <https://en.wikipedia.org/wiki/Scientific_workflow_system>,
         <https://semanticweb.org/wiki/Category:Topic_Semantic_Web>,
