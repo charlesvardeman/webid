@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://w3id.org/people/cvardeman>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://w3id.org/people/cvardeman> ;
+  foaf:primaryTopic <https://w3id.org/people/cvardeman> ;
+  foaf:title "Charles F Vardeman II FOAF file"@en .
+
+
+<https://www.crc.nd.edu/#this> a schema:Organization,
+        foaf:Group;
+    schema:member <https://w3id.org/people/cvardeman#me>;
+    foaf:homePage <https://www.crc.nd.edu/>;
+    foaf:member <https://w3id.org/people/cvardeman#me>;
+    foaf:title "Center for Research Computing" .
+
+<https://w3id.org/people/cvardeman#me> a dc:Agent,
+        schema:Person,
+        prov:Person,
+        foaf:Person;
+	owl:sameAs <https://orcid.org/0000-0003-4091-6059>;
+    schema:alumniOf <https://dbpedia.org/resource/University_of_Notre_Dame>;
+    schema:image <https://graph.facebook.com/706326341/picture?type=large>;
+    schema:mail <mailto:cvardema@nd.edu>;
+    schema:name "Charles F Vardeman II";
+    schema:worksFor <www.nd.edu/#this>;
+    foaf:img <https://graph.facebook.com/706326341/picture?type=large>;
+    foaf:mbox <mailto:cvardema@nd.edu>;
+    foaf:name "Charles Vardeman";
+    foaf:topic_interest <https://dbpedia.org/resource/E-Science>,
+        <https://en.wikipedia.org/wiki/Scientific_workflow_system>,
+        <https://semanticweb.org/wiki/Category:Topic_Semantic_Web>,
+        <https://www.w3.org/2005/Incubator/prov/wiki/What_Is_Provenance>,
+        <https://www.w3.org/DesignIssues/LinkedData.html> .
