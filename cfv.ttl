@@ -24,7 +24,7 @@
         foaf:Person;
 	owl:sameAs <https://orcid.org/0000-0003-4091-6059>;
     schema:alumniOf <https://dbpedia.org/resource/University_of_Notre_Dame>;
-    schema:image <https://graph.facebook.com/706326341/picture?type=large>;
+    schema:image <https://charlesvardeman.github.io/webid/cfv.png>;
     schema:mail <mailto:cvardema@nd.edu>;
     schema:name "Charles F Vardeman II"^^xsd:string; 
     schema:worksFor <www.nd.edu/#this>;
