@@ -36,7 +36,7 @@
     foaf:schoolHomepage <http://www.nd.edu/> ;
     foaf:title "PhD"^^xsd:string ;
     foaf:workplaceHomepage <http://crc.nd.edu/> ;
-    foaf:img <https://charlesvardeman.github.io/webid/cfv.png ;
+    foaf:img <https://charlesvardeman.github.io/webid/cfv.png> ;
     foaf:mbox <mailto:cvardema@nd.edu>, <mailto:charles.vardeman@gmail.com> ;
     foaf:name "Charles Vardeman"^^xsd:string;
     foaf:topic_interest <https://dbpedia.org/resource/E-Science>,
