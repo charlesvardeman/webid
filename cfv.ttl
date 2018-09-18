@@ -39,7 +39,7 @@
     foaf:img <https://charlesvardeman.github.io/webid/cfv.png> ;
     foaf:mbox <mailto:cvardema@nd.edu>, <mailto:charles.vardeman@gmail.com> ;
     foaf:name "Charles Vardeman"^^xsd:string;
-    foaf:topic_interest <https://dbpedia.org/resource/E-Science>,
+    foaf:topic_interest <https://dbpedia.org/resource/Cyberinfrastructure>,
         <https://en.wikipedia.org/wiki/Scientific_workflow_system>,
         <https://semanticweb.org/wiki/Category:Topic_Semantic_Web>,
         <https://www.w3.org/2005/Incubator/prov/wiki/What_Is_Provenance>,
